@@ -15,7 +15,7 @@ resource "azurerm_linux_virtual_machine" "vmauladocker" {
 
   }
   os_disk {
-    name                 = "osdisk-vmsrvnginx"
+    name                 = "osdisk-vmauladocker"
     storage_account_type = "Standard_LRS"
     caching              = "ReadWrite"
 

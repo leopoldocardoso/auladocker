@@ -25,14 +25,3 @@ variable "vnetenderecos" {
   type    = list(any)
   default = ["10.0.0.0/16"]
 }
-
-variable "admin_username" {
-  type    = string
-  default = "leopoldo"
-}
-
-variable "admin_password" {
-  type    = string
-  default = "pcardoso@6801"
-}
-
