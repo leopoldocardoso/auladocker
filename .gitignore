@@ -1,0 +1,9 @@
+*.tfold
+variaveis.tf
+*.MD
+.terraform.lock.hcl
+valores.tfvarsold
+backend.tf
+*.backup
+*.tfstate
+.terraform
