@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T02:09:15.251Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="QmJ-_vJ4XgO9p5UnAe4F" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T02:12:49.867Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="4YBj7IWhfcsL3mnyTUDm" version="18.2.0" type="github">
   <diagram id="FmTCoAAX5bAGyEv2PFWx" name="Page-1">
-    <mxGraphModel dx="1902" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1902" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#00000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,11 +15,11 @@
         <mxCell id="h2GL6TKTfyaKt5LTzS19-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;fontFamily=Verdana;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="60" y="119.07" width="99.59" height="120.93" as="geometry" />
         </mxCell>
-        <mxCell id="h2GL6TKTfyaKt5LTzS19-6" value="ng-vm-auladocker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="252.5" y="80" width="110" height="30" as="geometry" />
+        <mxCell id="h2GL6TKTfyaKt5LTzS19-6" value="nsg-vm-auladocker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="54.80000000000001" y="300" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-7" value="Network Security Group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="230" y="130" width="155" height="30" as="geometry" />
+          <mxGeometry x="37.5" y="330" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontFamily=Verdana;fontSize=14;" edge="1" parent="1" source="h2GL6TKTfyaKt5LTzS19-8">
           <mxGeometry relative="1" as="geometry">
@@ -44,10 +44,10 @@
           <mxGeometry x="456.01000000000005" y="130" width="118.59" height="110" as="geometry" />
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-14" value="vmauladocker (Ubuntu 20.04)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="110" height="30" as="geometry" />
+          <mxGeometry x="532" y="300" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-16" value="Virtual Machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="647" y="130" width="116" height="30" as="geometry" />
+          <mxGeometry x="537.13" y="330" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-18" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Network_Interfaces.svg;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="495.27" y="440" width="90.66" height="80" as="geometry" />
@@ -72,9 +72,6 @@
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-29" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="653.13" y="690" width="83.75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="h2GL6TKTfyaKt5LTzS19-32" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="380" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h2GL6TKTfyaKt5LTzS19-33" value="pip-vm-auladocker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="312.26" y="810" width="117.5" height="20" as="geometry" />
