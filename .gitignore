@@ -1,2 +1,2 @@
-variaveis.tf
+var_passwords.tf
 backend.tf
