@@ -1,27 +1,28 @@
 #Uso de variáveis
 
 variable "namerg" {
-  type        = string
   description = "Nome do Resource Group"
+  type        = string
   default     = "rg-proevolua"
 }
 
 variable "location" {
+  description = "Localizacao dos Recursos do Azure. Ex: northcentralus"
   type        = string
   default     = "northcentralus"
-  description = "Localizacao dos Recursos do Azure. Ex: northcentralus"
 }
 
 variable "tags" {
   type        = map(any)
   description = "Tags nos Recursos e Servicos do Azure"
   default = {
-    Ambiente = "AulaDocker/Proevolua"
+    Ambiente = "Proevolua/AulaDocker"
     Aluno    = "Leopoldo Cardoso"
   }
 }
 
 variable "vnetenderecos" {
-  type    = list(any)
-  default = ["10.0.0.0/16"]
+  description = "Endereços IPs de Vnets. O tipo list permite vários endereços IPs"
+  type        = list(any)
+  default     = ["10.0.0.0/16"]
 }
