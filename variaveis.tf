@@ -22,7 +22,7 @@ variable "tags" {
 }
 
 variable "vnetenderecos" {
-  description = "Endereços IPs de Vnets. O tipo list permite vários endereços IPs"
+  description = "Endereços IPs de Vnets. O tipo list permite vários ranges de endereços IPs"
   type        = list(any)
   default     = ["10.0.0.0/16"]
 }
