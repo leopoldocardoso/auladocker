@@ -9,7 +9,7 @@ resource "azurerm_public_ip" "pip" {
 
 #deploy public ip vmauladocker01
 resource "azurerm_public_ip" "pip01" {
-  name                = "pip-vm01-auladocker"
+  name                = "pip-vm01-auladocker-01"
   resource_group_name = var.namerg
   location            = var.location
   allocation_method   = "Dynamic"
