@@ -26,7 +26,7 @@ resource "azurerm_linux_virtual_machine" "vmauladocker" {
 
 #deploy vm auladocker01
 resource "azurerm_linux_virtual_machine" "vmauladocker01" {
-  name                            = "vmauladocker01"
+  name                            = "vmauladocker-01"
   resource_group_name             = var.namerg
   location                        = var.location
   size                            = "Standard_B2ms"
@@ -42,7 +42,7 @@ resource "azurerm_linux_virtual_machine" "vmauladocker01" {
 
   }
   os_disk {
-    name                 = "osdisk-vmauladocker01"
+    name                 = "osdisk-vmauladocker-01"
     storage_account_type = "Standard_LRS"
     caching              = "ReadWrite"
 

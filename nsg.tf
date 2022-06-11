@@ -22,8 +22,8 @@ resource "azurerm_network_security_group" "nsg" {
 }
 
 #Deploy Network Security Group
-resource "azurerm_network_security_group" "nsg0" {
-  name                = "nsg-vm-auladocker"
+resource "azurerm_network_security_group" "nsg01" {
+  name                = "nsg-vm-auladocker-01"
   resource_group_name = var.namerg
   location            = var.location
 
