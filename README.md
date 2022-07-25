@@ -9,4 +9,4 @@
     - Arquivo de variáveis
     - Criação de disco
     - Arquivo com saídas
-    - No arquivo varcredencias necessário preencher com seu usuário e senha de preferência
+    - No arquivo varcredencias.tf necessário preencher com seu usuário e senha de preferência
