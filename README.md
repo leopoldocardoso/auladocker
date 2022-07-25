@@ -6,3 +6,6 @@
     - Public IP (PIP)
     - Network Security Group (NSG)
     - Virtual machine (VM)
+    - Arquivo de variáveis
+    - Criação de disco
+    - Arquivo com saídas
