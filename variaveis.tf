@@ -26,3 +26,8 @@ variable "vnetenderecos" {
   type        = list(any)
   default     = ["10.0.0.0/16"]
 }
+
+variable "timezone" {
+
+  default = "E. South America Standard Time"
+}

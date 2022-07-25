@@ -3,7 +3,7 @@ resource "azurerm_linux_virtual_machine" "vmauladocker" {
   name                            = "vmauladocker"
   resource_group_name             = var.namerg
   location                        = var.location
-  size                            = "Standard_B2ms"
+  size                            = "Standard_DS2_v2"
   disable_password_authentication = false
   admin_username                  = var.admin_username
   admin_password                  = var.admin_password
@@ -17,8 +17,9 @@ resource "azurerm_linux_virtual_machine" "vmauladocker" {
   }
   os_disk {
     name                 = "osdisk-vmauladocker"
-    storage_account_type = "Standard_LRS"
+    storage_account_type = "StandardSSD_LRS"
     caching              = "ReadWrite"
+    disk_size_gb         = "30"
 
   }
   tags = var.tags

@@ -1,6 +1,6 @@
 # Deploy RG
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-proevolua"
+  name     = var.namerg
   location = var.location
   tags     = var.tags
 
