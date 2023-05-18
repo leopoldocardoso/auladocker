@@ -1,4 +1,5 @@
 # Criação de VM no Azure para instalação do Docker
+
  - Este repositório contém códigos Terraform para deploy dos seguintes recursos no Azure:
     - Resource group (rg)
     - Virtual network (vnet)
